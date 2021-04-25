@@ -1,4 +1,4 @@
-# clockwork Finance UIkit
+# Clockwork Finance UIkit
 
 [![Version](https://img.shields.io/npm/v/@pancakeswap-libs/uikit)](https://www.npmjs.com/package/@pancakeswap-libs/uikit) [![Size](https://img.shields.io/bundlephobia/min/@pancakeswap-libs/uikit)](https://www.npmjs.com/package/@pancakeswap-libs/uikit)
 
@@ -37,4 +37,4 @@ This project is built with Typescript and export all the relevant types.
 
 ## How to use the UIkit
 
-If you want to use components from the UIkit, check the [Storybook documentation](https://github.com/clockworkfinance/clockworkfinance-uikit)
+If you want to use components from the UIkit, check the [Storybook documentation](https://github.com/cockswapdev/clockworkfinance-uikit)
