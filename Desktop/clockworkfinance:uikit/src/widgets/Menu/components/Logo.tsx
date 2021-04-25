@@ -32,19 +32,19 @@ const StyledLink = styled(Link)`
 `;
 
 const StyledImage = styled.img`
-  height: 100%;
+    height:100%;
 `;
 const StyledImage2 = styled.img`
-  height: 32px;
-  width: 32px;
+    height:32px;
+    width:32px
 `;
 
 const Logo: React.FC<Props> = ({ isPushed, togglePush, isDark, href }) => {
   const isAbsoluteUrl = href.startsWith("http");
   const innerLogo = (
     <>
-      <StyledImage className="desktop-icon" src={`/images/logoWithText.png`} width={156} />
-      <StyledImage2 className="mobile-icon" src={`/images/piano.png`} />
+        <StyledImage className="desktop-icon" src={`/images/logoWithText.jpg`} width={156}/>
+        <StyledImage2 className="mobile-icon" src={`/images/piano.png`}/>
     </>
   );
 
