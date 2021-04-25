@@ -1064,6 +1064,17 @@
   "resolved" "https://registry.npmjs.org/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz"
   "version" "0.2.3"
 
+"@clockworkfinance/uikit@https://github.com/clockworkfinance/clockworkfinance-uikit/tarball/master":
+  "integrity" "sha512-eJkDhiucnXtPBi5y1ChQgdeTCISdogmv4cfg1ZEer4VdT0uyj06NDE0SOKHIASbyfmZy4KrqU7/mkl97jSZrvw=="
+  "resolved" "https://github.com/clockworkfinance/clockworkfinance-uikit/tarball/master"
+  "version" "0.2.3"
+  dependencies:
+    "@types/lodash" "^4.14.162"
+    "@types/styled-system" "^5.1.10"
+    "lodash" "^4.17.20"
+    "react-transition-group" "^4.4.1"
+    "styled-system" "^5.1.5"
+
 "@cnakazawa/watch@^1.0.3":
   "integrity" "sha512-v9kIhKwjeZThiWrLmj0y17CWoyddASLj9O2yvbZkbvw/N3rWOYy9zkV66ursAoVr0mV15bL8g0c4QZUE6cdDoQ=="
   "resolved" "https://registry.npmjs.org/@cnakazawa/watch/-/watch-1.0.4.tgz"
@@ -1560,17 +1571,6 @@
   "integrity" "sha512-H1rQc1ZOHANWBvPcW+JpGwr+juXSxM8Q8YCkm3GhZd8REu1fHR3z99CErO1p9pkcfcxZnMdIZdIsXkOHY0NilA=="
   "resolved" "https://registry.npmjs.org/@mdx-js/util/-/util-1.6.22.tgz"
   "version" "1.6.22"
-
-"@clockworkfinance/uikit@https://github.com/clockworkfinance/clockworkfinance-uikit/tarball/master":
-  "integrity" "sha512-eJkDhiucnXtPBi5y1ChQgdeTCISdogmv4cfg1ZEer4VdT0uyj06NDE0SOKHIASbyfmZy4KrqU7/mkl97jSZrvw=="
-  "resolved" "https://github.com/clockworkfinance/clockworkfinance-uikit/tarball/master"
-  "version" "0.2.3"
-  dependencies:
-    "@types/lodash" "^4.14.162"
-    "@types/styled-system" "^5.1.10"
-    "lodash" "^4.17.20"
-    "react-transition-group" "^4.4.1"
-    "styled-system" "^5.1.5"
 
 "@mrmlnc/readdir-enhanced@^2.2.1":
   "integrity" "sha512-bPHp6Ji8b41szTOcaP63VlnbbO5Ny6dwAATtY6JTjh5N2OLrb5Qk/Th5cRkRQhkWCt+EJsYrNB0MiL+Gpn6e3g=="
@@ -12483,9 +12483,9 @@
     "tweetnacl" "~0.14.0"
 
 "ssri@^6.0.1":
-  "integrity" "sha512-3Wge10hNcT1Kur4PDFwEieXSCMCJs/7WvSACcrMYrNp+b8kDL1/0wJch5Ni2WrtwEa2IO8OsVfeKIciKCDx/QA=="
-  "resolved" "https://registry.npmjs.org/ssri/-/ssri-6.0.1.tgz"
-  "version" "6.0.1"
+  "integrity" "sha512-cepbSq/neFK7xB6A50KHN0xHDotYzq58wWCa5LeWqnPrHG8GzfEjO/4O8kpmcGW+oaxkvhEJCWgbgNk4/ZV93Q=="
+  "resolved" "https://registry.npmjs.org/ssri/-/ssri-6.0.2.tgz"
+  "version" "6.0.2"
   dependencies:
     "figgy-pudding" "^3.5.1"
 
