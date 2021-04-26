@@ -3,8 +3,7 @@ import styled from "styled-components";
 import { PancakeRoundIcon } from "../../../components/Svg";
 import Text from "../../../components/Text/Text";
 import Skeleton from "../../../components/Skeleton/Skeleton";
-import {Image} from "../../../components/Image";
-
+import { Image } from "../../../components/Image";
 
 interface Props {
   cakePriceUsd?: number;
@@ -30,8 +29,8 @@ const StyledImage = styled.img`
 
 const CakePrice: React.FC<Props> = ({ cakePriceUsd }) => {
   return cakePriceUsd ? (
-    <PriceLink href="https://pancakeswap.info/token/0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82" target="_blank">
-        <StyledImage src={`/images/piano.png`} />
+    <PriceLink href="https://bscscan.com/token/0xd46936677b2c1bb696f2b67c55239331e2b7cd42" target="_blank">
+      <StyledImage src={`/images/piano.png`} />
       <Text color="textSubtle" bold>{`$${cakePriceUsd.toFixed(3)}`}</Text>
     </PriceLink>
   ) : (

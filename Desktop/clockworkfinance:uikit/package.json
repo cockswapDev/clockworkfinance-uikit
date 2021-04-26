@@ -1,6 +1,6 @@
 {
   "name": "@clockworkfinance/uikit",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Set of UI components for pancake projects",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
@@ -15,10 +15,11 @@
   "license": "MIT",
   "scripts": {
     "build": "rm -rf ./dist && rollup -c && tsc -d --emitDeclarationOnly --declarationDir dist",
+    "build-win": "rollup -c && tsc -d --emitDeclarationOnly --declarationDir dist",
     "lint": "eslint 'src/**/*.{js,jsx,ts,tsx}'",
     "format:check": "prettier --check --loglevel error 'src/**/*.{js,jsx,ts,tsx}'",
     "format:write": "prettier --write 'src/**/*.{js,jsx,ts,tsx}'",
-    "storybook": "start-storybook -s ./public -p 6006",
+    "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
     "test": "jest",
     "release": "yarn build && np"
@@ -75,9 +76,11 @@
     "styled-components": "^5.2.0"
   },
   "dependencies": {
+    "@clockworkfinance/uikit": "https://github.com/cockswapdev/clockworkfinance-uikit/tarball/master",
     "@types/lodash": "^4.14.162",
     "@types/styled-system": "^5.1.10",
     "lodash": "^4.17.20",
+    "mime": "^1.6.0",
     "react-transition-group": "^4.4.1",
     "styled-system": "^5.1.5"
   },

@@ -34,15 +34,15 @@ export const links = [
     items: [
       {
         label: "Github",
-        href: "https://github.com/clockworkfinance",
+        href: "https://github.com/clockworkyields",
       },
       {
         label: "Docs",
-        href: "https://clockworkfinance.gitbook.io/clockwork-finance/",
+        href: "https://app.gitbook.com/@clockworkyields/s/clockwork/",
       },
       {
-        label: "Blog",
-        href: "https://clockwork-finance.medium.com/",
+        label: "Medium",
+        href: "https://clockwork-yields.medium.com/",
       },
     ],
   },
@@ -53,20 +53,28 @@ export const socials = [
     label: "Telegram",
     icon: "TelegramIcon",
     items: [
-      {
-        label: "Annoucements",
-        href: "https://t.me/ClockworkFinanceAnn",
-      },
+      // {
+      //   label: "Annoucements",
+      //   href: "https://t.me/clockworkFinanceAnn",
+      // },
       {
         label: "English",
-        href: "https://t.me/ClockworkFinance",
+        href: "https://t.me/clockworkyields",
       },
+      // {
+      //   label: "Espanol",
+      //   href: "https://t.me/clockworkFinanceEs",
+      // },
+      // {
+      //   label: "Japan",
+      //   href: "https://t.me/clockworkFinanceJPN",
+      // },
     ],
   },
   {
     label: "Twitter",
     icon: "TwitterIcon",
-    href: "https://twitter.com/ClockworkFinance",
+    href: "https://twitter.com/ClockworkYields?s=09",
   },
 ];
 
