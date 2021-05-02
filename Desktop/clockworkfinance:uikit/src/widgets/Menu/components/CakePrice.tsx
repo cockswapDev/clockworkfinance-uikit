@@ -9,6 +9,8 @@ interface Props {
   cakePriceUsd?: number;
 }
 
+
+
 const PriceLink = styled.a`
   display: flex;
   align-items: center;
